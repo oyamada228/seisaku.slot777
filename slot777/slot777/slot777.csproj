@@ -86,5 +86,44 @@
   <ItemGroup>
     <None Include="Resources\slot11.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hurt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Budou.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

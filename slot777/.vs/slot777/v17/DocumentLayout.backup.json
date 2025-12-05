@@ -3,24 +3,27 @@
   "WorkspaceRootPath": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|c:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|c:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|slot777||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|c:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|c:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|c:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|c:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{AE6972C8-8F56-4604-8BF7-CBBF81A264EA}|slot777\\slot777.csproj|solutionrelative:slot777\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +33,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Form1.cs",
               "RelativeDocumentMoniker": "slot777\\Form1.cs",
               "ToolTip": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Form1.cs*",
               "RelativeToolTip": "slot777\\Form1.cs*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwDYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAgwIUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T02:53:46.118Z",
               "IsPinned": true,
@@ -48,45 +51,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "slot777\\Properties\\Resources.resx",
-              "ToolTip": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Properties\\Resources.resx",
-              "RelativeToolTip": "slot777\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-02T03:01:59.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "slot777\\Form1.Designer.cs",
-              "ToolTip": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Form1.Designer.cs*",
-              "RelativeToolTip": "slot777\\Form1.Designer.cs*",
-              "ViewState": "AgIAACkAAAAAAAAAAAD4vzkAAABKAAAAAAAAAA==",
+              "ToolTip": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Form1.Designer.cs",
+              "RelativeToolTip": "slot777\\Form1.Designer.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAcwIMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T03:00:30.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Program.cs",
-              "RelativeDocumentMoniker": "slot777\\Program.cs",
-              "ToolTip": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Program.cs",
-              "RelativeToolTip": "slot777\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T02:59:40.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Form1.cs",
               "RelativeDocumentMoniker": "slot777\\Form1.cs",
@@ -95,6 +73,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T02:53:21.553Z",
               "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "slot777",
+              "DocumentMoniker": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\slot777.csproj",
+              "RelativeDocumentMoniker": "slot777\\slot777.csproj",
+              "ToolTip": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\slot777.csproj",
+              "RelativeToolTip": "slot777\\slot777.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-05T04:47:39.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Program.cs",
+              "RelativeDocumentMoniker": "slot777\\Program.cs",
+              "ToolTip": "C:\\\u5171\u540C\u5236\u4F5C\\slot777\\slot777\\Program.cs",
+              "RelativeToolTip": "slot777\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T02:59:40.471Z"
             }
           ]
         }
