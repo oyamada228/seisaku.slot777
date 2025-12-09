@@ -113,9 +113,39 @@ namespace slot777.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap gogoChance {
+            get {
+                object obj = ResourceManager.GetObject("gogoChance", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap hurt {
             get {
                 object obj = ResourceManager.GetObject("hurt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap juggler {
+            get {
+                object obj = ResourceManager.GetObject("juggler", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap スクリーンショット_2025_12_09_114729 {
+            get {
+                object obj = ResourceManager.GetObject("スクリーンショット 2025-12-09 114729", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
 namespace slot777
@@ -34,11 +35,52 @@ namespace slot777
 
             }
             ;
+
+           //ボタンを丸くする処理
+            button1.Width = 100;
+            button1.Height = 100;
+
+            button2.Width = 100;
+            button2.Height = 100;
+
+            button3.Width = 100;
+            button3 .Height = 100;
+
+            button1.FlatStyle = FlatStyle.Flat;              
+            button1.FlatAppearance.BorderSize = 0;
+            button1.BackColor = Color.Blue;
+            button1.ForeColor = Color.White;
+
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.BackColor = Color.Blue;
+            button2.ForeColor = Color.White;
+
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.BackColor = Color.Blue;
+            button3.ForeColor = Color.White;
+
+
+            //丸くする
+            GraphicsPath a = new GraphicsPath();
+            a.AddEllipse(0, 0, button1.Width, button1.Height);
+            button1.Region = new Region(a);
+
+            GraphicsPath b = new GraphicsPath();
+            b.AddEllipse(0, 0, button2.Width, button2.Height);
+            button2.Region = new Region(b);
+        
+            GraphicsPath  c = new GraphicsPath();
+            c.AddEllipse(0, 0, button3.Width, button3.Height);
+            button3.Region = new Region(c);
+
+
         }
 
 
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e) //タイマーで処理
         {
 
             if (!stopFlag1)
@@ -50,7 +92,7 @@ namespace slot777
             if (!stopFlag3)
                 pictureBox3.Image = slotImages[rand.Next(slotImages.Length)];
 
-            if (stopFlag1 && stopFlag2 && stopFlag3)
+            if (stopFlag1 && stopFlag2 && stopFlag3)　　//ボタンが3つ押されたらリール止める
             {
                 timer1.Stop();
                 CheckResult();
@@ -102,7 +144,7 @@ namespace slot777
         private void button4_Click(object sender, EventArgs e)  // スタートボタン
         {
             tickCount = 0;
-            timer1.Interval = 100;
+            timer1.Interval = 1000;
 
 
             stop1 = rand.Next(15, 25);
@@ -131,8 +173,18 @@ namespace slot777
             stopFlag2 = false;
             stopFlag3 = false;
 
-            timer1.Interval = 100;
+            timer1.Interval = 1000;
             timer1.Start();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
