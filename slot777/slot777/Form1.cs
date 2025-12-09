@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
 namespace slot777
@@ -7,44 +8,152 @@ namespace slot777
     public partial class Form1 : Form
     {
 
-        Image[] slotImages;
+        Image[] slotImages;  //絵柄の箱
 
+        Random rand = new Random();　　//ランダム化
+        int tickCount = 0;
+        int stop1 = 0, stop2 = 0, stop3 = 0;   //停止ボタン
 
-
+        bool stopFlag1 = false;
+        bool stopFlag2 = false;
+        bool stopFlag3 = false;
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e) //絵柄をリソースに追加
         {
             slotImages = new Image[]
             {
-                Properties.Resources.slot1
+                Properties.Resources.BAR,
+                Properties.Resources.Beru,
+                Properties.Resources._7,
+                Properties.Resources.Budou,
+                Properties.Resources.hurt,
 
             }
             ;
 
+           //ボタンを丸くする処理
+            button1.Width = 100;
+            button1.Height = 100;
 
+            button2.Width = 100;
+            button2.Height = 100;
+
+            button3.Width = 100;
+            button3 .Height = 100;
+
+            button1.FlatStyle = FlatStyle.Flat;              
+            button1.FlatAppearance.BorderSize = 0;
+            button1.BackColor = Color.Blue;
+            button1.ForeColor = Color.White;
+
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.BackColor = Color.Blue;
+            button2.ForeColor = Color.White;
+
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.BackColor = Color.Blue;
+            button3.ForeColor = Color.White;
+
+
+            //丸くする
+            GraphicsPath a = new GraphicsPath();
+            a.AddEllipse(0, 0, button1.Width, button1.Height);
+            button1.Region = new Region(a);
+
+            GraphicsPath b = new GraphicsPath();
+            b.AddEllipse(0, 0, button2.Width, button2.Height);
+            button2.Region = new Region(b);
+        
+            GraphicsPath  c = new GraphicsPath();
+            c.AddEllipse(0, 0, button3.Width, button3.Height);
+            button3.Region = new Region(c);
 
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private void timer1_Tick(object sender, EventArgs e) //タイマーで処理
         {
 
+            if (!stopFlag1)
+            pictureBox1.Image = slotImages[rand.Next(slotImages.Length)];
+
+            if (!stopFlag2)
+                pictureBox2.Image = slotImages[rand.Next(slotImages.Length)];
+
+            if (!stopFlag3)
+                pictureBox3.Image = slotImages[rand.Next(slotImages.Length)];
+
+            if (stopFlag1 && stopFlag2 && stopFlag3)　　//ボタンが3つ押されたらリール止める
+            {
+                timer1.Stop();
+                CheckResult();
+            }
+
         }
+         
 
-
-        Random rand = new Random();
-
-
-
-        private void timer1_Tick(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //ボタン1の止める処理
         {
-            pictureBox3.Image = slotImages[rand.Next(slotImages.Length)];
+            stopFlag1 = true;
         }
+
+
+        private void button2_Click(object sender, EventArgs e)  //ボタン2
+        {
+            stopFlag2 = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)  //ボタン3
+        {
+            stopFlag3 = true;
+        } 
+            
+        private void timer1_Tck(object sender, EventArgs e)
+        {
+           tickCount++;
+
+            if(tickCount <= stop1)
+            pictureBox1.Image = slotImages[rand.Next(slotImages.Length)];
+
+            if (tickCount <= stop2)
+                pictureBox2.Image = slotImages[rand.Next(slotImages.Length)];
+
+            if (tickCount <= stop3)
+                pictureBox3.Image = slotImages[rand.Next(slotImages.Length)];
+
+             if(tickCount > stop3)
+             {
+                timer1.Stop();
+                CheckResult();
+
+             }
+
+        }
+    
+
+
+        private void button4_Click(object sender, EventArgs e)  // スタートボタン
+        {
+            tickCount = 0;
+            timer1.Interval = 1000;
+
+
+            stop1 = rand.Next(15, 25);
+            stop2 = rand.Next(25, 35);
+            stop3 = rand.Next(35, 45);
+
+            timer1.Start();
+        }
+
 
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -52,15 +161,49 @@ namespace slot777
             pictureBox3.Image = Image.FromFile(@"C:\path\to\your\image.jpg");
         }
 
+
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            pictureBox3.Image = Image.FromFile(@"C:\path\to\your\image.jpg");
+            pictureBox2.Image = Image.FromFile(@"C:\path\to\your\image.jpg");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            stopFlag1 = false;
+            stopFlag2 = false;
+            stopFlag3 = false;
+
+            timer1.Interval = 1000;
+            timer1.Start();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            pictureBox1.Image = Image.FromFile(@"C:\path\to\your\image.jpg");
             timer1.Enabled = true;
         }
+
+        private void CheckResult()
+        {
+            if (pictureBox1.Image == pictureBox2.Image && pictureBox2.Image == pictureBox3.Image)
+
+            {
+                MessageBox.Show("当たり");
+            }
+
+        }
+
+
     }
 
 }
