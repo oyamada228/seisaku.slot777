@@ -132,7 +132,53 @@
     <None Include="Resources\gogoChance.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\start SE.WAVE" />
     <None Include="Resources\スクリーンショット 2025-12-09 114729.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hurt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Budou1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beru1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beru2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Budou2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atari SE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop SE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start SE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_htsxwhtsxwhtsxwh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_h22sxuh22sxuh22s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image %288%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

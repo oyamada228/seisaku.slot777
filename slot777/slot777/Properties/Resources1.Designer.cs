@@ -71,15 +71,6 @@ namespace slot777.Properties {
         }
         
         /// <summary>
-        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream atari {
-            get {
-                return ResourceManager.GetStream("atari", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
         internal static System.Drawing.Bitmap BAR {
@@ -102,9 +93,9 @@ namespace slot777.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap Budou1 {
+        internal static System.Drawing.Bitmap Budou {
             get {
-                object obj = ResourceManager.GetObject("Budou1", resourceCulture);
+                object obj = ResourceManager.GetObject("Budou", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -112,9 +103,9 @@ namespace slot777.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap Image__7_ {
+        internal static System.Drawing.Bitmap coin {
             get {
-                object obj = ResourceManager.GetObject("Image (7)", resourceCulture);
+                object obj = ResourceManager.GetObject("coin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -122,28 +113,30 @@ namespace slot777.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap Image__8_ {
+        internal static System.Drawing.Bitmap gogoChance {
             get {
-                object obj = ResourceManager.GetObject("Image (8)", resourceCulture);
+                object obj = ResourceManager.GetObject("gogoChance", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream start {
+        internal static System.Drawing.Bitmap hurt {
             get {
-                return ResourceManager.GetStream("start", resourceCulture);
+                object obj = ResourceManager.GetObject("hurt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   System.IO.MemoryStream に類似した型 System.IO.UnmanagedMemoryStream のローカライズされたリソースを検索します。
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream stop {
+        internal static System.Drawing.Bitmap juggler {
             get {
-                return ResourceManager.GetStream("stop", resourceCulture);
+                object obj = ResourceManager.GetObject("juggler", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
