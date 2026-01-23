@@ -57,6 +57,8 @@ namespace slot777
                 Properties.Resources.BAR,
                 Properties.Resources.Beru,
                 Properties.Resources.Budou1,
+                Properties.Resources.coin,
+                Properties.Resources.hurt
                
             };
 
